@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    background-color: whitesmoke;
+}
+header {
+    font-size: 30px;
+    font-weight: bold;
+    background-color: wheat;
+    padding: 20px;
+    height: 50px;
+}
+
+footer {
+    font-size: 20px;
+    background-color: wheat;
+    padding: 20px;
+    padding-top: 40px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+}
+
+.font {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.pre {
+    white-space: pre;
+}
+
+#content {
+    display: flex;
+    margin-top: 100px;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 130px;
+}
+
+#form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btns {
+    cursor: pointer;
+    padding: 3.5px 5px;
+    margin: 5px;
+    background-color: beige;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.btns:hover {
+    background-color: rgb(231, 231, 174);
+}
+
+#input {
+    height: 25px;
+    width: 250px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+#input:hover {
+    background-color: ghostwhite;
+}

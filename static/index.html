@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <title>CopyFile</title>
+</head>
+
+<body>
+    <div>
+        <header class="font">
+            CopyFile
+        </header>
+        <div id="content">
+            <div>
+                <form action="/data" method="POST" id="form-container">
+                    <label><h2>請輸入貨號：</h2></label>
+                    <input type="text" name="input" id="input" autofocus /></br>
+                    <input type="submit" id="btn" value="確認提交" class="btns" />
+                </form>
+            </div>
+            </br>
+            <div>
+                <p>
+                    圖庫資料夾路徑為：<span id="src_path" class="pre"></span>
+                    <button id="srcbtn" class="btns">更改路徑</button>
+                </p>
+                <p>
+                    儲存資料夾路徑為：<span id="des_path" class="pre"></span>
+                    <button id="desbtn" class="btns">更改路徑</button>
+                </p>
+            </div>
+        </div>
+        <footer class="font">
+            &copy;Onion International Application, Inc.</br>All rights reserved. 2022-
+            <script>
+                let d = new Date();
+                if (d.getFullYear() !== 2022) {
+                    document.write(d.getFullYear());
+                }                 
+            </script>
+        </footer>
+    </div>
+
+    <script src="cookie.js"></script>
+</body>
+
+</html>
